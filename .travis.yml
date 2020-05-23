@@ -11,17 +11,6 @@ addons:
 
 env:
   - ADDON=flicd ARCH=aarch64
-  - ADDON=flicd ARCH=armhf
-  - ADDON=flicd ARCH=amd64
-  - ADDON=flicd ARCH=i386
-  - ADDON=picamera ARCH=armhf
-  - ADDON=picamera ARCH=aarch64
-  - ADDON=pilight ARCH=armhf
-  - ADDON=pilight ARCH=amd64
-  - ADDON=zabbix-agent ARCH=armhf
-  - ADDON=zabbix-agent ARCH=aarch64
-  - ADDON=zabbix-agent ARCH=amd64
-  - ADDON=zabbix-agent ARCH=i386
 
 script:
   - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
