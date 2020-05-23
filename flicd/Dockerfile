@@ -11,7 +11,6 @@ RUN case $(arch) in \
         i386) export ARCH=i386 ;; \
         armv6l|armv7l) export ARCH=armv6l ;; \
         aarch64) export ARCH=aarch64 ;; \
-
     esac && \
     apt-get update && \
     apt-get install -y git && \
