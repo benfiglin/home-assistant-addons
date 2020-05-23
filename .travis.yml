@@ -10,10 +10,10 @@ addons:
     - jq
 
 env:
+  - ADDON=flicd ARCH=aarch64
   - ADDON=flicd ARCH=armhf
   - ADDON=flicd ARCH=amd64
   - ADDON=flicd ARCH=i386
-  - ADDON=flicd ARCH=aarch64
   - ADDON=picamera ARCH=armhf
   - ADDON=picamera ARCH=aarch64
   - ADDON=pilight ARCH=armhf
