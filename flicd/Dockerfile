@@ -4,7 +4,7 @@ FROM $BUILD_FROM
 ARG BUILD_ARCH
 ARG BUILD_VERSION
 
-LABEL maintainer "Ben Figlin <>"
+LABEL maintainer "Ben Figlin <secret@email.com>"
 
 RUN case $(arch) in \
         x86_64|amd64) export ARCH=x86_64 ;; \
